@@ -1,5 +1,4 @@
 import { Nav } from './components/Nav'
-import { SkyBackground } from './components/SkyBackground'
 import { Hero } from './components/Hero'
 import { AgentPillars } from './components/AgentPillars'
 import { ComplianceSection } from './components/ComplianceSection'
@@ -22,7 +21,6 @@ export default function App() {
     <>
       <SchemaOrg />
       <a className="skip-link" href="#main-content">Skip to content</a>
-      <SkyBackground />
       <Nav />
       <Hero />
       <div className="knockout">
