@@ -4,19 +4,38 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "BracciaCap AI",
-  "legalName": "Braccia Capital LLC",
+  "legalName": "Braccia Capital Inc.",
   "url": "https://bracciacap.com",
   "description": "Autonomous AI agents purpose-built for Registered Investment Advisors — handling compliance, portfolio management, client reporting, and practice growth.",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "115 Broadway, Suite 1100",
-    "addressLocality": "New York",
-    "addressRegion": "NY",
-    "postalCode": "10006",
-    "addressCountry": "US"
-  },
+  "address": [
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "111 Main Street",
+      "addressLocality": "Staten Island",
+      "addressRegion": "NY",
+      "postalCode": "10307",
+      "addressCountry": "US"
+    },
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "40 Wall Street",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "postalCode": "10005",
+      "addressCountry": "US"
+    },
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "30 N Gould St, Ste N",
+      "addressLocality": "Sheridan",
+      "addressRegion": "WY",
+      "postalCode": "82801",
+      "addressCountry": "US"
+    }
+  ],
   "contactPoint": {
     "@type": "ContactPoint",
+    "telephone": "+1-518-520-5022",
     "email": "ai@bracciacap.com",
     "contactType": "sales"
   }
@@ -47,7 +66,7 @@ const softwareApplicationSchema = {
   ],
   "provider": {
     "@type": "Organization",
-    "name": "Braccia Capital LLC"
+    "name": "Braccia Capital Inc."
   }
 };
 

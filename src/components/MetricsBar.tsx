@@ -1,6 +1,6 @@
 export function MetricsBar() {
   return (
-    <section className="w-section alt" style={{ padding: '4rem 0' }}>
+    <section className="w-section alt metrics-section">
       <div className="container fade-up">
         <div className="metrics">
           <div className="metric">

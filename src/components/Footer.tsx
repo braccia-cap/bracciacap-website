@@ -9,11 +9,28 @@ export const Footer: React.FC = () => {
           <div className="logo">BracciaCap AI</div>
           <p>Autonomous AI agents purpose-built for Registered Investment Advisors.</p>
           <div className="footer-addr">
-            115 Broadway, Suite 1100
-            <br />
-            New York, NY 10006
-            <br />
-            <a href="mailto:ai@bracciacap.com">ai@bracciacap.com</a>
+            <div className="footer-addr-block">
+              <span className="footer-addr-label">Principal Office</span>
+              111 Main Street
+              <br />
+              Staten Island, NY 10307
+            </div>
+            <div className="footer-addr-block">
+              <span className="footer-addr-label">New York</span>
+              40 Wall Street
+              <br />
+              New York, NY 10005
+            </div>
+            <div className="footer-addr-block">
+              <span className="footer-addr-label">Registered Agent</span>
+              30 N Gould St, Ste N
+              <br />
+              Sheridan, WY 82801
+            </div>
+            <div className="footer-addr-contact">
+              <a href="tel:+15185205022">(518)&nbsp;520-5022</a>
+              <a href="mailto:ai@bracciacap.com">ai@bracciacap.com</a>
+            </div>
           </div>
         </div>
 
@@ -36,16 +53,15 @@ export const Footer: React.FC = () => {
         {/* Col 4 — Legal */}
         <div className="footer-col">
           <h4>Legal</h4>
-          <a href="#">Privacy</a>
-          <a href="#">Terms</a>
-          <a href="#">Security</a>
+          <a href="/privacy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
+          <a href="#security">Security</a>
         </div>
       </div>
 
       <div className="footer-bottom">
         <span>&copy; 2026 BracciaCap AI, a Braccia Capital company.</span>
         <div className="social-links">
-          <a href="#" aria-label="LinkedIn">LinkedIn</a>
           <a href="#" aria-label="X">X</a>
         </div>
       </div>
